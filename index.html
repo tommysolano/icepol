@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>ICEPOL CAPACITACIONES</title>
+</head>
+<body>
+    <header>
+        <div class="barra" id="barra" style="background-color: #fff;">
+            <div class="logo">
+                <img src="img/logo.jpg" alt="">
+            </div>
+            <i class="fas fa-bars burger" id="5" style="color: #000;"></i>
+            <div class="menu">
+                <a href="index.html" id="1" style="color: #000;">Inicio</a>
+                <a href="nosotros.html" id="2" style="color: #000;">Nosotros</a>
+                <a href="servicios.html" id="3" style="color: #000;">Cursos</a>
+                <a href="https://api.whatsapp.com/send?phone=593993294856&text=Hola!%20Me%20gustaria%20consultar" target="blank" class="contacto">Contacto</a>
+            </div>
+        </div>
+    </header>
+    <section class="fondo"> 
+        <div class="background" >
+            <h2>¡EMPIEZA APRENDER CON LOS MEJORES!</h2>
+            <h1><span class="amarillo">CLASES</span> EN VIVO</h1>
+        </div>
+    </section>
+    <section class="servicios">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h3 class="center-align titulo">NUESTROS CURSOS</h3>
+                </div>
+                <div class="carousel center-align">
+
+                    <div class="carousel-item">
+                        <h2 class="subtitulo">Python</h2>
+                        <img src="img/python.jpg" alt="">
+                    </div>
+
+                    <div class="carousel-item">
+                        <h2 class="subtitulo">Electricidad & Magnetismo</h2>
+                        <img src="img/electricidad basica.jpg" alt="">
+                    </div>
+
+                    <div class="carousel-item">
+                        <h2 class="subtitulo">Matemáticas básicas</h2>
+                        <img src="img/matematicas.jpg" alt="">
+                    </div>
+
+                    <div class="carousel-item">
+                        <h2 class="subtitulo">Creación de página web</h2>
+                        <img src="img/web.jpg" alt="">
+                    </div>
+
+                    <div class="carousel-item">
+                        <h2 class="subtitulo">Cálculo</h2>
+                        <img src="img/calculo.jpg" alt="">
+                    </div>
+
+                    <div class="carousel-item">
+                        <h2 class="subtitulo">Álgebra</h2>
+                        <img src="img/algebra.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacto">
+        <div class="titulo">
+            <h3>CONTACTO</h3>
+        </div>
+        <div class="contenedor_contacto">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.9204678504852!2d-79.91469098587136!3d-2.1838635378782576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6d904998e9e9%3A0xe5a6151d61bdbb6!2sMAUKRI!5e0!3m2!1ses!2sec!4v1605202699593!5m2!1ses!2sec" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="formulario">
+                <form action="enviar.php" method="post">
+                    <div class="contenedor_entradas">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" required>
+                    </div>
+                    <br>
+                    <div class="contenedor_entradas">
+                        <label for="numero">Celular</label>
+                        <input type="text" name="numero" id="numero" required>
+                    </div>
+                    <br>
+                    <div class="contenedor_entradas">
+                        <label for="correo">Correo</label>
+                        <input type="email" name="correo" id="correo" required>
+                    </div>
+                    <br>
+                    <div class="contenedor_entradas">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" required></textarea>
+                    </div>
+                    <button class="enviar">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright © 2020 ICEPOL. All Rights Reserved. Designed by EPSILONDEV</a>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/e59cc094ae.js" crossorigin="anonymous"></script>
+</body>
+</html>
